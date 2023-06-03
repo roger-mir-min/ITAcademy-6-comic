@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "S6-2": {
+    "s6-2": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
