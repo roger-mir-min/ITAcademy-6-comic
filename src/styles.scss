@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+$light: #efefef;
+
+.btn-group {
+    width: 98%;
+}
+
+.btn-light {
+    background-color: $light;
+    border: 2px solid grey !important;
+}
+
+.btn-light:hover {
+    border: 2px solid black !important;
+}
+
+.escena {
+    @extend .mx-5, .my-4, .py-3, .border, .border-dark, .border-3, .rounded-pill, .text-center;
+}
+
+.actiu {
+    background-color: pink;
+    opacity: 1;
+    @extend .escena;
+}
+
+.passiu {
+    background-color: white;
+    opacity: 0.7;
+    @extend .escena
+}
