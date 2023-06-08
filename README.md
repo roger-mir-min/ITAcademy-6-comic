@@ -1,6 +1,7 @@
 # Sprint6BS
-
+Click "Clica per començar" to start. Then click "anterior" o "següent" to jump to the previous or next frame of the comic. See the background image changing as the tale progresses.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+This project was deployed with Vercel.
 
 ## Development server
 
